@@ -1,0 +1,127 @@
+(footprint "WSLP3921"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Vishay Power Metal Resistor")
+	(property "Reference" "REF**"
+		(at -0.11 -4.67 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "983c1af1-41f3-41a3-9851-16437b8bbbdb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WSLP3921"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f9b94314-e9ba-430b-a363-f4075f4d68f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69407102-f7a6-40d1-b504-2abfb71c53f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "568f035c-e414-42b0-b747-d046d5d7b7b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4391c3f3-0821-4dc6-9539-489031e338ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 -3.51)
+		(end 6 -3.51)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "340413f5-0161-49e8-9ea1-41a107724040")
+	)
+	(fp_line
+		(start -6 3.49)
+		(end -6 -3.51)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1106729-7318-4588-8b2f-415877ef6ad9")
+	)
+	(fp_line
+		(start 6 -3.51)
+		(end 6 3.49)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f101c388-9597-4b8a-b3af-b40d36f66707")
+	)
+	(fp_line
+		(start 6 3.49)
+		(end -6 3.49)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4de2ae25-2059-4bcc-8ecf-35235086294e")
+	)
+	(pad "1" smd roundrect
+		(at -4.15 0)
+		(size 2.7 6.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "03a71a1a-7fbe-4725-afa3-5809f046d13f")
+	)
+	(pad "2" smd roundrect
+		(at 4.15 0)
+		(size 2.7 6.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ca7e6f03-1b3f-4d9a-9842-e3e79a97a9c1")
+	)
+)

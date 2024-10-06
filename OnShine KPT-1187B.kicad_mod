@@ -1,0 +1,101 @@
+(footprint "OnShine KPT-1187B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Push Button - Momentary, SMD")
+	(property "Reference" "REF**"
+		(at -0.280035 -3.374873 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "09cdc3b0-5c59-4b4e-b975-7cd89c59d730")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at -0.280035 3.095219 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "01a4ea63-c182-4086-bac4-5acd5b5cb4f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5e5c704-a471-4c35-ae00-9bed6810bd0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "875c6513-72b0-4527-a046-f0efa11ddaff")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef7e8c03-6ec1-4a4d-b5cf-d6665bbcf3e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.379978 -1.979676)
+		(size 1.800098 1.100074)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.254)
+		(clearance 0.254)
+		(thermal_bridge_angle 45)
+		(uuid "3cd66bb3-96d9-4bd6-85bd-e86363dbc43a")
+	)
+	(pad "2" smd rect
+		(at -3.379978 1.710182)
+		(size 1.800098 1.100074)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.254)
+		(clearance 0.254)
+		(thermal_bridge_angle 45)
+		(uuid "206b2211-6d1b-4f47-9ba8-aca5c2ea96af")
+	)
+	(pad "3" smd rect
+		(at 2.819908 -1.989836)
+		(size 1.800098 1.100074)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.254)
+		(clearance 0.254)
+		(thermal_bridge_angle 45)
+		(uuid "6d72ae16-3c04-47b4-991d-4e6579369458")
+	)
+	(pad "4" smd rect
+		(at 2.819908 1.710182)
+		(size 1.800098 1.100074)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.254)
+		(clearance 0.254)
+		(thermal_bridge_angle 45)
+		(uuid "925b0434-9085-4cd6-80ab-192caca1b089")
+	)
+)
